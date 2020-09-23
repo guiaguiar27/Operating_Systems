@@ -1,0 +1,136 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 15:45 ?        00:00:02 /sbin/init splash
+root         2     0  0 15:45 ?        00:00:00 [kthreadd]
+root         3     2  0 15:45 ?        00:00:00 [rcu_gp]
+root         4     2  0 15:45 ?        00:00:00 [rcu_par_gp]
+root         6     2  0 15:45 ?        00:00:00 [kworker/0:0H-kblockd]
+root         8     2  0 15:45 ?        00:00:00 [mm_percpu_wq]
+root         9     2  0 15:45 ?        00:00:00 [ksoftirqd/0]
+root        10     2  0 15:45 ?        00:00:07 [rcu_sched]
+root        11     2  0 15:45 ?        00:00:00 [migration/0]
+root        12     2  0 15:45 ?        00:00:00 [idle_inject/0]
+root        14     2  0 15:45 ?        00:00:00 [cpuhp/0]
+root        15     2  0 15:45 ?        00:00:00 [kdevtmpfs]
+root        16     2  0 15:45 ?        00:00:00 [netns]
+root        17     2  0 15:45 ?        00:00:00 [rcu_tasks_kthre]
+root        18     2  0 15:45 ?        00:00:00 [kauditd]
+root        19     2  0 15:45 ?        00:00:00 [khungtaskd]
+root        20     2  0 15:45 ?        00:00:00 [oom_reaper]
+root        21     2  0 15:45 ?        00:00:00 [writeback]
+root        22     2  0 15:45 ?        00:00:00 [kcompactd0]
+root        23     2  0 15:45 ?        00:00:00 [ksmd]
+root        24     2  0 15:45 ?        00:00:00 [khugepaged]
+root       116     2  0 15:45 ?        00:00:00 [kintegrityd]
+root       117     2  0 15:45 ?        00:00:00 [kblockd]
+root       118     2  0 15:45 ?        00:00:00 [blkcg_punt_bio]
+root       119     2  0 15:45 ?        00:00:00 [tpm_dev_wq]
+root       120     2  0 15:45 ?        00:00:00 [ata_sff]
+root       121     2  0 15:45 ?        00:00:00 [md]
+root       122     2  0 15:45 ?        00:00:00 [edac-poller]
+root       123     2  0 15:45 ?        00:00:00 [devfreq_wq]
+root       124     2  0 15:45 ?        00:00:00 [watchdogd]
+root       129     2  0 15:45 ?        00:00:00 [kswapd0]
+root       130     2  0 15:45 ?        00:00:00 [kworker/u3:0]
+root       131     2  0 15:45 ?        00:00:00 [ecryptfs-kthrea]
+root       134     2  0 15:45 ?        00:00:00 [kthrotld]
+root       135     2  0 15:45 ?        00:00:00 [acpi_thermal_pm]
+root       136     2  0 15:45 ?        00:00:00 [scsi_eh_0]
+root       137     2  0 15:45 ?        00:00:00 [scsi_tmf_0]
+root       138     2  0 15:45 ?        00:00:00 [scsi_eh_1]
+root       139     2  0 15:45 ?        00:00:00 [scsi_tmf_1]
+root       142     2  0 15:45 ?        00:00:00 [ipv6_addrconf]
+root       153     2  0 15:45 ?        00:00:00 [kstrp]
+root       172     2  0 15:45 ?        00:00:00 [charger_manager]
+root       173     2  0 15:45 ?        00:00:01 [kworker/0:1H-kblockd]
+root       213     2  0 15:45 ?        00:00:00 [scsi_eh_2]
+root       215     2  0 15:45 ?        00:00:00 [scsi_tmf_2]
+root       217     2  0 15:45 ?        00:00:00 [cryptd]
+root       233     2  0 15:45 ?        00:00:06 [irq/18-vmwgfx]
+root       235     2  0 15:45 ?        00:00:00 [ttm_swap]
+root       310     2  0 15:45 ?        00:00:00 [jbd2/sda1-8]
+root       311     2  0 15:45 ?        00:00:00 [ext4-rsv-conver]
+root       359     1  0 15:45 ?        00:00:00 /lib/systemd/systemd-journald
+root       388     1  0 15:45 ?        00:00:00 /lib/systemd/systemd-udevd
+systemd+   432     1  0 15:45 ?        00:00:01 /lib/systemd/systemd-resolved
+systemd+   436     1  0 15:45 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root       438     1  0 15:45 ?        00:00:01 /usr/sbin/haveged --Foreground --verbose=1 -w 1024
+root       448     2  0 15:45 ?        00:00:00 [iprt-VBoxWQueue]
+root       497     1  0 15:45 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       502     1  0 15:45 ?        00:00:00 /usr/sbin/acpid
+root       513     1  0 15:45 ?        00:00:00 /usr/sbin/cron -f
+root       514     1  0 15:45 ?        00:00:00 /lib/systemd/systemd-logind
+root       533     1  0 15:45 ?        00:00:00 /usr/sbin/ModemManager --filter-policy=strict
+avahi      534     1  0 15:45 ?        00:00:00 avahi-daemon: running [contiki-pc.local]
+message+   535     1  0 15:45 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       536     1  0 15:45 ?        00:00:00 /usr/sbin/ofonod -P ril --nodetach
+root       537     1  0 15:45 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root       538     1  0 15:45 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       546     1  0 15:45 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root       547     1  0 15:45 ?        00:00:00 /usr/lib/udisks2/udisksd
+syslog     548     1  0 15:45 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+avahi      638   534  0 15:46 ?        00:00:00 avahi-daemon: chroot helper
+root       659     1  0 15:46 ?        00:00:00 /usr/sbin/cups-browsed
+root       660     1  0 15:46 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root       670     1  0 15:46 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       679     1  0 15:46 ?        00:00:00 /usr/bin/sddm
+root       680     1  0 15:46 ?        00:00:01 /usr/bin/containerd
+root       684     1  0 15:46 ?        00:00:00 /usr/sbin/cupsd -l
+whoopsie   742     1  0 15:46 ?        00:00:00 /usr/bin/whoopsie -f
+root       743     1  0 15:46 ?        00:00:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+kernoops   746     1  0 15:46 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops   748     1  0 15:46 ?        00:00:00 /usr/sbin/kerneloops
+root       770   679  0 15:46 tty1     00:01:46 /usr/lib/xorg/Xorg -nolisten tcp -auth /var/run/sddm/{b5b52c3c-4130-4414-aa11-c3f795dff712} -background none -noreset -displayfd 17 -seat seat0 vt1
+rtkit      904     1  0 15:47 ?        00:00:00 /usr/libexec/rtkit-daemon
+root       912     1  0 15:47 ?        00:00:00 /usr/lib/bluetooth/bluetoothd
+root      1008     2  0 15:47 ?        00:00:00 bpfilter_umh
+root      1230   679  0 15:49 ?        00:00:00 /usr/lib/x86_64-linux-gnu/sddm/sddm-helper --socket /tmp/sddm-authef8b110f-3d8c-4bbb-900e-de6aadf96e52 --id 1 --start env LXQT_DEFAULT_OPENBOX_CONFIG="/etc/xdg/xdg-Lubuntu/openbox/lxqt-rc.xml" /usr/bin/startlxqt --user contiki
+contiki   1238     1  0 15:49 ?        00:00:00 /lib/systemd/systemd --user
+contiki   1239  1238  0 15:49 ?        00:00:00 (sd-pam)
+contiki   1271  1238  0 15:49 ?        00:00:01 /usr/bin/pulseaudio --daemonize=no
+contiki   1277  1230  0 15:49 ?        00:00:00 lxqt-session
+contiki   1280  1238  0 15:49 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+contiki   1321  1277  0 15:49 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env LXQT_DEFAULT_OPENBOX_CONFIG=/etc/xdg/xdg-Lubuntu/openbox/lxqt-rc.xml /usr/bin/startlxqt
+contiki   1339  1277  0 15:49 ?        00:00:02 /usr/bin/openbox --config-file /home/contiki/.config/openbox/lxqt-rc.xml
+contiki   1342     1  0 15:49 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+contiki   1344     1  0 15:49 ?        00:00:00 /usr/lib/geoclue-2.0/demos/agent
+contiki   1349  1342  0 15:49 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+contiki   1352  1277  0 15:49 ?        00:00:09 /usr/bin/pcmanfm-qt --desktop --profile=lxqt
+contiki   1353  1277  0 15:49 ?        00:00:00 /usr/bin/lxqt-globalkeysd
+contiki   1354  1277  0 15:49 ?        00:00:00 /usr/bin/lxqt-notificationd
+contiki   1355  1277  0 15:49 ?        00:00:10 /usr/bin/lxqt-panel
+contiki   1356  1277  0 15:49 ?        00:00:00 /usr/bin/lxqt-policykit-agent
+contiki   1357  1277  0 15:49 ?        00:00:00 /usr/bin/lxqt-runner
+contiki   1359     1  0 15:49 ?        00:00:02 /usr/bin/xscreensaver -no-splash
+contiki   1362     1  0 15:49 ?        00:00:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+contiki   1391  1238  0 15:49 ?        00:00:00 /usr/lib/gvfs/gvfsd
+contiki   1418  1238  0 15:49 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+contiki   1419  1391  0 15:49 ?        00:00:03 /usr/lib/gvfs/gvfsd-trash --spawner :1.12 /org/gtk/gvfs/exec_spaw/0
+contiki   1431  1238  0 15:49 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+contiki   1436  1238  0 15:49 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+contiki   1440  1238  0 15:49 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+contiki   1445  1238  0 15:49 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+contiki   1449  1238  0 15:49 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+root      1459     1  0 15:49 ?        00:00:00 /usr/lib/upower/upowerd
+contiki   1490  1277  0 15:49 ?        00:00:00 /usr/bin/lxqt-powermanagement
+contiki   1492     1  0 15:49 ?        00:00:00 /usr/bin/qlipper
+contiki   1494     1  0 15:49 ?        00:00:00 /usr/bin/nm-tray
+contiki   2624     1  0 16:57 ?        00:00:18 /usr/bin/qterminal
+root      3223     2  0 17:33 ?        00:00:02 [kworker/0:2-events]
+root      3256     2  0 18:07 ?        00:00:00 [kworker/u2:0-events_power_efficient]
+contiki   3279  2624  0 18:11 pts/1    00:00:00 /bin/bash
+contiki   3325     1  2 18:18 ?        00:00:36 /usr/lib/firefox/firefox
+contiki   3364  3325  0 18:18 ?        00:00:03 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 221402 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 3325 true tab
+contiki   3412  3325  0 18:18 ?        00:00:01 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 6315 -prefMapSize 221402 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 3325 true tab
+contiki   3445  3325  1 18:18 ?        00:00:17 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6386 -prefMapSize 221402 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 3325 true tab
+contiki   3473  3325  0 18:18 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 7151 -prefMapSize 221402 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 3325 true tab
+contiki   3511  1391  0 18:19 ?        00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.12 /org/gtk/gvfs/exec_spaw/1
+contiki   3524  1238  0 18:19 ?        00:00:00 /usr/lib/dconf/dconf-service
+contiki   3532  1391  0 18:20 ?        00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.12 /org/gtk/gvfs/exec_spaw/3
+contiki   3610     1  0 18:24 ?        00:00:00 featherpad /home/contiki/geral.txt
+root      3666     2  0 18:29 ?        00:00:00 [kworker/u2:1-events_power_efficient]
+root      3684     2  0 18:34 ?        00:00:00 [kworker/0:1-events]
+root      3699     2  0 18:44 ?        00:00:00 [kworker/u2:2-events_unbound]
+contiki   3704  3279  0 18:44 pts/1    00:00:00 more
+contiki   3706  2624  0 18:45 pts/0    00:00:00 /bin/bash
+contiki   3714  3706  0 18:46 pts/0    00:00:00 ps -ef
+contiki   3715  3706  0 18:46 pts/0    00:00:00 more
