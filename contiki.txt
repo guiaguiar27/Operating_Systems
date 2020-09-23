@@ -1,0 +1,44 @@
+  PID TTY          TIME CMD
+ 1238 ?        00:00:00 systemd
+ 1239 ?        00:00:00 (sd-pam)
+ 1271 ?        00:00:01 pulseaudio
+ 1277 ?        00:00:00 lxqt-session
+ 1280 ?        00:00:00 dbus-daemon
+ 1321 ?        00:00:00 ssh-agent
+ 1339 ?        00:00:02 openbox
+ 1342 ?        00:00:00 at-spi-bus-laun
+ 1344 ?        00:00:00 agent
+ 1349 ?        00:00:00 dbus-daemon
+ 1352 ?        00:00:09 pcmanfm-qt
+ 1353 ?        00:00:00 lxqt-globalkeys
+ 1354 ?        00:00:00 lxqt-notificati
+ 1355 ?        00:00:09 lxqt-panel
+ 1356 ?        00:00:00 lxqt-policykit-
+ 1357 ?        00:00:00 lxqt-runner
+ 1359 ?        00:00:02 xscreensaver
+ 1362 ?        00:00:00 applet.py
+ 1391 ?        00:00:00 gvfsd
+ 1418 ?        00:00:00 gvfsd-fuse
+ 1419 ?        00:00:03 gvfsd-trash
+ 1431 ?        00:00:00 gvfs-udisks2-vo
+ 1436 ?        00:00:00 gvfs-gphoto2-vo
+ 1440 ?        00:00:00 gvfs-afc-volume
+ 1445 ?        00:00:00 gvfs-mtp-volume
+ 1449 ?        00:00:00 gvfs-goa-volume
+ 1490 ?        00:00:00 lxqt-powermanag
+ 1492 ?        00:00:00 qlipper
+ 1494 ?        00:00:00 nm-tray
+ 2624 ?        00:00:16 qterminal
+ 2627 pts/0    00:00:00 bash
+ 3262 pts/0    00:00:00 man
+ 3272 pts/0    00:00:00 pager
+ 3279 pts/1    00:00:00 bash
+ 3325 ?        00:00:20 MainThread
+ 3364 ?        00:00:02 Privileged Cont
+ 3412 ?        00:00:00 WebExtensions
+ 3445 ?        00:00:08 Web Content
+ 3473 ?        00:00:00 Web Content
+ 3511 ?        00:00:00 gvfsd-network
+ 3524 ?        00:00:00 dconf-service
+ 3532 ?        00:00:00 gvfsd-dnssd
+ 3561 pts/1    00:00:00 ps
